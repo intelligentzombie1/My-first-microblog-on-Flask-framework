@@ -1,0 +1,126 @@
+2019-07-20 10:04:55,453: Exception on /follow/mum [GET] [in /Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py:1780]]
+Traceback (most recent call last):
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kayode/Desktop/microblog/app/routes.py", line 105, in follow
+    current_user.follow(user)
+  File "/Users/kayode/Desktop/microblog/app/models.py", line 51, in follow
+    self.follow.append(user)
+AttributeError: 'function' object has no attribute 'append'
+2019-07-20 10:37:59,274: Exception on /follow/mum [GET] [in /Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py:1780]]
+Traceback (most recent call last):
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kayode/Desktop/microblog/app/routes.py", line 106, in follow
+    if user == current_user.follow(user):
+  File "/Users/kayode/Desktop/microblog/app/models.py", line 51, in follow
+    self.follow_append(user)
+AttributeError: 'function' object has no attribute 'append'
+2019-07-20 10:41:57,234: Exception on /follow/mum [GET] [in /Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py:1780]]
+Traceback (most recent call last):
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kayode/Desktop/microblog/app/routes.py", line 105, in follow
+    current_user.follow(user)
+  File "/Users/kayode/Desktop/microblog/app/models.py", line 51, in follow
+    self.follow_append(user)
+AttributeError: 'User' object has no attribute 'follow_append'
+2019-07-23 13:53:38,785: Exception on /follow/mum [GET] [in /Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py:1780]]
+Traceback (most recent call last):
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kayode/Desktop/microblog/app/routes.py", line 105, in follow
+    current_user.follow(user)
+  File "/Users/kayode/Desktop/microblog/app/models.py", line 51, in follow
+    self.follow_append(user)
+AttributeError: 'User' object has no attribute 'follow_append'
+2019-07-23 14:06:46,928: Exception on /follow/mum [GET] [in /Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py:1780]]
+Traceback (most recent call last):
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kayode/Desktop/microblog/app/routes.py", line 105, in follow
+    current_user.follow(user)
+  File "/Users/kayode/Desktop/microblog/app/models.py", line 51, in follow
+    self.is_following.append(user)
+AttributeError: 'function' object has no attribute 'append'
+2019-07-23 14:08:33,890: Exception on /follow/mum [GET] [in /Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py:1780]]
+Traceback (most recent call last):
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 2311, in wsgi_app
+    response = self.full_dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1834, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1737, in handle_user_exception
+    reraise(exc_type, exc_value, tb)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/_compat.py", line 36, in reraise
+    raise value
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1832, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask/app.py", line 1818, in dispatch_request
+    return self.view_functions[rule.endpoint](**req.view_args)
+  File "/Users/kayode/Desktop/microblog/venv/lib/python3.7/site-packages/flask_login/utils.py", line 261, in decorated_view
+    return func(*args, **kwargs)
+  File "/Users/kayode/Desktop/microblog/app/routes.py", line 105, in follow
+    current_user.follow(user)
+  File "/Users/kayode/Desktop/microblog/app/models.py", line 51, in follow
+    self.is_followed.append(user)
+AttributeError: 'User' object has no attribute 'is_followed'
